@@ -4,7 +4,7 @@
 
 ## Picture of Website
 
-![Picture of Website](https://github.com/ckester99/module-3-challenge/blob/main/photos/readme-img.PNG)
+![Picture of Website](https://github.com/ckester99/module-3-challenge/blob/main/readme-img.PNG)
 
 ## Purpose
 
