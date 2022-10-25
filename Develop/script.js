@@ -101,8 +101,10 @@ function generatePassword() {
     }
 
     //builds a password by randomly selecting however many characters user specified from list of valid characters.
-    let password = validChars;
-    for (let i = 0; i < numChars; i++) {}
+    let password = "";
+    for (let i = 0; i < numChars; i++) {
+        password = password + validChars[Math.floor(Math.random() * validChars.length)];
+    }
     if (cancelPressed) {
         password = "Cancelled";
     }
